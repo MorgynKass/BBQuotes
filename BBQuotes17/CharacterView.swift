@@ -26,6 +26,7 @@ struct CharacterView: View {
                                     image
                                         .resizable()
                                         .scaledToFill()
+                                    
                                 } placeholder: {
                                     ProgressView()
                                 }
